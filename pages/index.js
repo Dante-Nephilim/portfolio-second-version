@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className="max-w-xl mx-auto mt-10">
+    <div className="mx-auto mt-10 max-w-6xl ">
       <Head>
         <title>Prem Sagar</title>
         <meta
@@ -17,19 +17,19 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section>
+      <section className="my-14">
         <NavBar />
       </section>
-      <section>
+      <section className="my-14">
         <Hero />
       </section>
-      <section>
+      <section className="my-14">
         <Projects />
       </section>
-      <section>
+      <section className="my-14">
         <Technologies />
       </section>
-      <section>
+      <section className="my-14">
         <Footer />
       </section>
     </div>
